@@ -15,6 +15,7 @@ function createCircle() {
 // Constructor Functions
 
 function Circle(radius) {
+    debugger;
     this.radius = radius;
     this.draw = function() {
         console.log('draw');
@@ -22,8 +23,9 @@ function Circle(radius) {
 }
 
 const circle = new Circle(1);
+// x={}
+//When used 'new' keyword it will create a new Empty Object jus like Above
 console.log(circle);
-
 
 
 //'this' is the Reference to the Object that is executing the perticular piece of Code  
